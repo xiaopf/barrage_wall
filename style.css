@@ -1,47 +1,85 @@
 #barrage_wall{
-      position: relative;
-      margin-top: 50px;
-      width: 100%;
-      height: 500px;
-      border:1px solid black;
-      overflow:hidden;
-    }
-    #my_color{
-      position: relative;
-      top:7px;
-      height:38px;
-      width: 20px;
-      
-    }
-    #my_input{
-      width: 340px;
-      height: 40px;
-      border-radius: 4px;
-      margin:10px auto;
-    }
-    .my_center_group{
-      text-align:center;
-      line-height: 90px;
-      margin:0;
-      padding: 0;
-    }
-    #my_button1{
-      border:1px solid red;
-      color:red;
-    }
-    #my_button2{
-      border:1px solid blue;
-      color:blue;
-    }
-    #my_button1,
-    #my_button2{
-      font-size: 18px;
-      width: 120px;
-      height: 40px;
-      margin:0px 20px;
-    }
+  position: relative;
+  margin-top: 50px;
+  width: 75%;
+  height: 500px;
+  border:1px solid black;
+  overflow:hidden;
+}
+.fa-play-circle{
+  position: absolute;
+  right:60px;
+  bottom:30px;
+  color:black;
+  font-size: 80px;
+}
+.fa-pause-circle{
+  position: absolute;
+  right:60px;
+  bottom:30px;
+  color:black;
+  font-size: 80px;
+}
 
-    .barrages{
-      width: 150%;
-      position: absolute;
-    }
+#barrage_text{
+  position: relative;
+  margin-top: 50px;
+  width: 23%;
+  margin-left:2%;
+  height: 500px;
+  border:1px solid black;
+}
+
+#barrage_text th:nth-child(1){
+  padding:2px 14px 2px 0px;
+
+}
+#barrage_text th:nth-child(2){
+  padding:2px 50px 2px 0px;
+
+}
+#barrage_text th:nth-child(3){
+  padding:2px 20px 2px 0px;
+
+}
+
+
+#my_color{
+  position: relative;
+  top:7px;
+  height:38px;
+  width: 20px;
+  
+}
+#my_input{
+  width: 340px;
+  height: 40px;
+  border-radius: 4px;
+  margin:10px auto;
+}
+.my_center_group{
+  text-align:center;
+  line-height: 90px;
+  margin:0;
+  padding: 0;
+}
+#my_button1{
+  border:1px solid red;
+  color:red;
+}
+#my_button2{
+  border:1px solid blue;
+  color:blue;
+}
+#my_button1,
+#my_button2{
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  margin:0px 20px;
+}
+
+.barrages{
+  width: 150%;
+  position: absolute;
+}
